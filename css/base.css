@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; min-width: 960px; min-height: 540px; font-family: "微软雅黑"; overflow: hidden; }
+body { font-size: 16px; background-image: url('../img/bg.jpg'); background-size: cover; background-position: center; }
+
+@media screen and (min-width: 960px) and (min-height: 540px) {
+	body { font-size: 12px; }
+}
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+	body { font-size: 16px; }
+}
+@media screen and (min-width: 1600px) and (min-height: 900px) {
+	body { font-size: 20px; }
+}
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+	body { font-size: 24px; }
+}
+@media screen and (min-width: 2240px) and (min-height: 1260px) {
+	body { font-size: 28px; }
+}
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+	body { font-size: 32px; }
+}
+
+.mainview { width: 80em; height: 45em; border: 1px solid #ccc; background-color: rgba(255, 255, 255, 0.3); position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; overflow: hidden; }
+.mainview>canvas { width: 100%; height: 100%; position: absolute; left: 0; top: 0; }

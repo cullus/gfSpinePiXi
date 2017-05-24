@@ -1,0 +1,44 @@
+.mainview>.side { width: 18em; background-color: rgba(255, 255, 255, 0.5); position: absolute; top: 0; bottom: 0; z-index: 999; }
+.mainview>.side>.exit { width: 3em; height: 3em; background-color: rgba(255, 255, 255, 0.5); position: absolute; top: 0; }
+.mainview>.side>.exit:before { content: ""; width: 2em; height: 2em; background-size: cover; position: absolute; left: 0.5em; top: 0.5em; }
+.exitleft:before { background-image: url('../img/icon/left.png'); }
+.exitright:before { background-image: url('../img/icon/right.png'); }
+.mainview>.side { font-size: 0.75em; }
+.mainview>.side>.title { width: 100%; height: 3em; text-indent: 1em; background-color: rgba(255, 255, 255, 0.6); border-bottom: 1px solid #f0f0f0; }
+.mainview>.side>.title>span { font-size: 1em; line-height: 3em; color: #333; }
+
+.mainview>.side>.menu { position: absolute; left: 0; top: 3em; right: 0; bottom: 0; overflow: auto; }
+.mainview>.side>.menu .item { position: relative; cursor: pointer; }
+.mainview>.side>.menu .item>.title, .mainview>.side>.menu .item>.tab { width: 100%; height: 3em; text-indent: 3em; background-color: rgba(255, 255, 255, 0.5); border-bottom: 1px solid #f0f0f0; }
+.mainview>.side>.menu .item>.tab { background-color: rgba(255, 255, 255, 0.3); text-indent: 1em; cursor: pointer; }
+.mainview>.side>.menu .item>.tab>.icon { width: 2em; height: 2em; background-size: cover; position: absolute; top: 0.5em; }
+.mainview>.side>.menu .item>.tab>.add { background-image: url('../img/icon/add.png'); right: 1em; }
+.mainview>.side>.menu .item>.title>span, .mainview>.side>.menu .item>.tab>span { font-size: 1em; line-height: 3em; color: #333; }
+
+.mainview>.side>.menu .item>.title:before { content: ""; width: 1em; height: 1em; background-size: cover; position: absolute; left: 1em; top: 1em; }
+.itemclose:before { background-image: url('../img/icon/right.png'); }
+.itemopen:before { background-image: url('../img/icon/down.png'); }
+
+
+.mainview>.sideleft { left: 0; }
+.mainview>.sideleft>.exit { right: -3em; }
+.mainview>.sideleft>.view { padding: 1em 3em; float : left; }
+.mainview>.sideleft>.view canvas { width: 12em; height: 12em; border: 1px solid #ccc; margin: -1px; }
+.mainview>.sideleft>.menu { top: 17em; }
+.mainview>.sideleft>.menu .item>.menu { height: 0; padding-left: 1em; display: none; overflow: hidden; }
+
+.mainview>.sideright { right: 0; }
+.mainview>.sideright>.exit { left: -3em; }
+
+.mainview>.sideright>.menu { bottom: 10em; }
+.mainview>.sideright>.menu #item { position: absolute; left: 0; top: 6em; right: 0; bottom: 0; }
+.mainview>.sideright>.menu #item>.menu { position: absolute; left: 0; top: 3em; right: 0; bottom: 0; overflow: auto; }
+.mainview>.sideright>.menu .item>.tab>.icon { width: 1em; height: 1em; top: 1em; }
+.mainview>.sideright>.menu .item>.tab>.remove { background-image: url('../img/icon/close.png'); right: 1em; }
+.mainview>.sideright>.menu .item>.tab>.turn { background-image: url('../img/icon/turn.png'); right: 3em; }
+.mainview>.sideright>.menu .item>.tab>.next { background-image: url('../img/icon/next.png'); right: 5em; }
+.mainview>.sideright>.menu .item>.tab>.play { background-image: url('../img/icon/play.png'); right: 7em; }
+.mainview>.sideright>.menu .item>.tab>.stop { background-image: url('../img/icon/stop.png'); right: 7em; }
+.mainview>.sideright>.menu .focusitem { background: #fff; }
+.mainview>.sideright>.edit { height: 8em; background-color: rgba(255, 255, 255, 0.5); padding: 1em; position: absolute; left: 0; right: 0; bottom: 0; }
+.mainview>.sideright>.edit>.button { width: 4em; line-height: 2em; text-align: center; border: 1px #333 solid; border-radius: 0.25em; margin: 0.5em; float: left; }

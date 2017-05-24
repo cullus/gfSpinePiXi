@@ -1,0 +1,2 @@
+.mainview>.sideleft { left: 0; }
+.mainview>.sideleft>.exit { right: -3em; }
