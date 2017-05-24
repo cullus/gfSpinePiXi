@@ -25,4 +25,4 @@
 
 ---
 
-[view]:https://github.com/cullus/gfSpinePiXi/raw/master/images/bgg.jpg
+[view]:https://github.com/cullus/gfSpinePiXi/raw/master/img/bgg.jpg
