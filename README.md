@@ -1,8 +1,8 @@
 # gfSpinePiXi 少女前线Q版模拟器
 
-[![view]](https://cullus.github.io/gfSpinePiXi/)
+[![view]](http://cullus.oschina.io/girlsfrontline_spinesimulator)
 
-[网页模拟器](https://cullus.github.io/gfSpinePiXi/)
+[网页模拟器](http://cullus.oschina.io/girlsfrontline_spinesimulator)
 
 ---
 
@@ -12,10 +12,9 @@
 
 ---
 
-## 2017.5.24 更新
+## 2017.5.25 更新
 
-变身宿舍模拟器<br/>
-代码凌乱，以后再说<br/>
+更新 `syp2017` `yht2017` 系列家具
 
 [更新日志](更新日志.md)
 
@@ -25,4 +24,4 @@
 
 ---
 
-[view]:https://github.com/cullus/gfSpinePiXi/raw/master/img/bgg.jpg
+[view]:http://git.oschina.net/cullus/girlsfrontline_spinesimulator/raw/master/img/bgg.jpg
