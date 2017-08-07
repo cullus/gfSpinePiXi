@@ -1,8 +1,8 @@
 # gfSpinePiXi 少女前线Q版模拟器
 
-[![view]](http://cullus.oschina.io/girlsfrontline_spinesimulator)
+[![view]](https://cullus.github.io/gfSpinePiXi/)
 
-[网页模拟器](http://cullus.oschina.io/girlsfrontline_spinesimulator)
+[网页模拟器](https://cullus.github.io/gfSpinePiXi/)
 
 ---
 
