@@ -142,7 +142,6 @@ PreView.prototype.init_data = function(){
 }
 
 PreView.prototype.getGirlsName = function(genus){
-	console.log(genus + '_' + data_girls_name[genus]);
 	if(data_girls_name[genus] != null){
 		return data_girls_name[genus];
 	}
