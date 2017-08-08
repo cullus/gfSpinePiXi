@@ -61,7 +61,7 @@ PreView.prototype.init_data = function(){
 		furstr +="</div></div>";
 	}
 	for(var genus in data_girl){
-		girlstr += "<div class='item'><div class='title itemclose'><span>" + genus + "</span></div><div class='menu'>";
+		girlstr += "<div class='item'><div class='title itemclose'><span>" + this.getGirlsName(genus) + "</span></div><div class='menu'>";
 		for(var name in data_girl[genus]){
 			girlstr += "<div class='item'><div class='tab' value='" + genus + '#' + name +"'><span>" + name + "</span><div class='add icon'></div></div></div>";
 		}
@@ -139,4 +139,12 @@ PreView.prototype.init_data = function(){
 		e.stopPropagation();
 		v.nextAnimation(0);
 	});
+}
+
+PreView.prototype.getGirlsName = function(genus){
+	console.log(genus + '_' + data_girls_name[genus]);
+	if(data_girls_name[genus] != null){
+		return data_girls_name[genus];
+	}
+	return genus;
 }
