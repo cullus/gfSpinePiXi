@@ -460,9 +460,10 @@
         };
         spine.Atlas.prototype = {
             findRegion: function(name) {
+                name_clear = name.replace(/^\s+|\s+$/g, "")
                 var regions = this.regions;
                 for (var i = 0, n = regions.length; i < n; i++)
-                    if (regions[i].name == name) return regions[i];
+                    if (regions[i].name == name_clear) return regions[i];
                 return null;
             },
             dispose: function() {
